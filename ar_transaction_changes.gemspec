@@ -20,6 +20,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency "activerecord", ">= 4.1", "< 5.0"
 
   gem.add_development_dependency("rake")
-  gem.add_development_dependency("mysql2")
+  gem.add_development_dependency("sqlite3")
   gem.add_development_dependency("appraisal")
 end

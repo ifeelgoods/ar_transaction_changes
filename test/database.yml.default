@@ -1,7 +1,5 @@
 test:
-  adapter: mysql2
-  database: ar_transaction_changes_test
-  host: 127.0.0.1
-  encoding: utf8
-  username: root
-  password:
+  adapter: sqlite3
+  pool: 5
+  timeout: 5000
+  database: db/test.sqlite3
